@@ -46,6 +46,12 @@ final class DatabaseManagerTests: XCTestCase {
         XCTAssertEqual(sut.getDatabaseName(), databaseName, "database name needs to be equal")
     }
     
+    func testIsDatabaseConnected() {
+        let databaseName = "MockDatabase"
+        let mockDatabase = MockSQLDatabase(databaseName: databaseName)
+        sut = DatabaseManager(dataBase: mockDatabase)
+        XCTAssertTrue(sut.isDatabaseConnected(), "make sure database connected")
+    }
 
 }
 

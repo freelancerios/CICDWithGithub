@@ -6,7 +6,7 @@
 project "CDwithGithub.xcodeproj"
 scheme "CDwithGithub"
 sdk "iphonesimulator"
-device "iPhone 12"
+device "iPhone 14"
 code_coverage true
 xcargs '-parallelizeTargets'
 prelaunch_simulator true
