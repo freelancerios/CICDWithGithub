@@ -16,6 +16,7 @@
 		04125C452A1CC1560001390F /* CDwithGithubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04125C442A1CC1560001390F /* CDwithGithubTests.swift */; };
 		04125C4C2A1CC1990001390F /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04125C4B2A1CC1990001390F /* Database.swift */; };
 		04125C4E2A1CC3CC0001390F /* DatabaseManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04125C4D2A1CC3CC0001390F /* DatabaseManagerTests.swift */; };
+		04125C502A1F387F0001390F /* SQLDatabaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04125C4F2A1F387E0001390F /* SQLDatabaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		04125C442A1CC1560001390F /* CDwithGithubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDwithGithubTests.swift; sourceTree = "<group>"; };
 		04125C4B2A1CC1990001390F /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		04125C4D2A1CC3CC0001390F /* DatabaseManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManagerTests.swift; sourceTree = "<group>"; };
+		04125C4F2A1F387E0001390F /* SQLDatabaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLDatabaseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				04125C442A1CC1560001390F /* CDwithGithubTests.swift */,
+				04125C4F2A1F387E0001390F /* SQLDatabaseTest.swift */,
 				04125C4D2A1CC3CC0001390F /* DatabaseManagerTests.swift */,
 			);
 			path = CDwithGithubTests;
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04125C4E2A1CC3CC0001390F /* DatabaseManagerTests.swift in Sources */,
+				04125C502A1F387F0001390F /* SQLDatabaseTest.swift in Sources */,
 				04125C452A1CC1560001390F /* CDwithGithubTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4HC82YWU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CDwithGithub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -378,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4HC82YWU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CDwithGithub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -405,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,7 +432,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4HC82YWU5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.CDwithGithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +451,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4HC82YWU5;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.CDwithGithubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
