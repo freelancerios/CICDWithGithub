@@ -8,15 +8,15 @@
 import Foundation
 
 protocol DataBaseProtocol {
-    var databaseName: String {get set}
-    var isConnectionEstablish: Bool {get set}
+    var databaseName: String {get}
+    var isConnectionEstablish: Bool {get}
     func connectToDatabase()
 }
 
 class SQLDatabase: DataBaseProtocol {
     
-    var databaseName: String
-    var isConnectionEstablish: Bool = false
+    private(set) var databaseName: String
+    private(set) var isConnectionEstablish: Bool = false
     init(databaseName: String) {
         self.databaseName = databaseName
     }
@@ -29,8 +29,8 @@ class SQLDatabase: DataBaseProtocol {
 
 
 class NOSQLDatabase: DataBaseProtocol {
-    var databaseName: String
-    var isConnectionEstablish: Bool = false
+    private(set) var databaseName: String
+    private(set) var isConnectionEstablish: Bool = false
     init(databaseName: String) {
         self.databaseName = databaseName
     }
